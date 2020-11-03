@@ -1085,6 +1085,7 @@ GameObject:
   - component: {fileID: 1119455822}
   - component: {fileID: 1119455821}
   - component: {fileID: 1119455820}
+  - component: {fileID: 1119455823}
   m_Layer: 5
   m_Name: Enter AR
   m_TagString: Untagged
@@ -1192,6 +1193,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1119455818}
   m_CullTransparentMesh: 0
+--- !u!114 &1119455823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119455818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 958f4497c3da0934594d25d6979f7249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1126845541
 GameObject:
   m_ObjectHideFlags: 0
