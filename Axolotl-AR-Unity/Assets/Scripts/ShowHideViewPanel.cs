@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HideViewPanel : MonoBehaviour
+public class ShowHideViewPanel : MonoBehaviour
 {
 
     public GameObject panel;
@@ -14,11 +14,11 @@ public class HideViewPanel : MonoBehaviour
         counter++;
         if (counter % 2 == 1)
         {
-            panel.gameObject.SetActive(false);
+            panel.gameObject.SetActive(true);
         }
         else
         {
-            panel.gameObject.SetActive(true);
+            panel.gameObject.SetActive(false);
         }
 
     }
