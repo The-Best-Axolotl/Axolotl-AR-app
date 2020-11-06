@@ -15,4 +15,8 @@ public class Switching : MonoBehaviour
     {
         SceneManager.LoadScene("home screen");
     }
+    public void GotoVideo()
+    {
+        SceneManager.LoadScene("video");
+    }
 }
