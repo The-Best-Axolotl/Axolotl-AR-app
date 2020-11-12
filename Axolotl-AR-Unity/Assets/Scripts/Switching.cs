@@ -19,4 +19,8 @@ public class Switching : MonoBehaviour
     {
         SceneManager.LoadScene("tutorial screen");
     }
+    public void GotoSetting()
+    {
+        SceneManager.LoadScene("settings scene");
+    }
 }
