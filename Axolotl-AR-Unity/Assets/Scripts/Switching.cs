@@ -17,6 +17,6 @@ public class Switching : MonoBehaviour
     }
     public void GotoVideo()
     {
-        SceneManager.LoadScene("video");
+        SceneManager.LoadScene("tutorial screen");
     }
 }
