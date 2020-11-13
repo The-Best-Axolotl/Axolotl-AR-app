@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial Screen.unity
     guid: 69eb33305c161b04dbaad02a340d1b6b
+  - enabled: 1
+    path: Assets/Scenes/Settings Screen.unity
+    guid: 95302c9a8322e8e439b108896a907aca
+  - enabled: 1
+    path: Assets/Scenes/Editing Screen.unity
+    guid: 9fbbe9cea73eb17488eaf9233da40205
+  - enabled: 1
+    path: Assets/Scenes/Warning Screen.unity
+    guid: c43b46064971bae4b8e3e7f5543746ab
   m_configObjects: {}
