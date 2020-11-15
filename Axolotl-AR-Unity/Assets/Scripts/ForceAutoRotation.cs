@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ForceLandscape : MonoBehaviour
+public class ForceAutoRotation : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
 
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
+        Screen.orientation = ScreenOrientation.Portrait;
 
     }
 }
