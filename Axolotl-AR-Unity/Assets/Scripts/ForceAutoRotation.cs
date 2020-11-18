@@ -8,7 +8,7 @@ public class ForceAutoRotation : MonoBehaviour
     void Start()
     {
 
-        Screen.orientation = ScreenOrientation.Portrait;
+        Screen.orientation = ScreenOrientation.AutoRotation;
 
     }
 }
