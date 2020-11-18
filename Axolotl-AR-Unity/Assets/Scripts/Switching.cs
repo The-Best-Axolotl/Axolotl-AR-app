@@ -31,4 +31,5 @@ public class Switching : MonoBehaviour
     {
         SceneManager.LoadScene("warning screen");
     }
+
 }
