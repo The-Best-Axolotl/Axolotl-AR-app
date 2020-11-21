@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;   // Tasfiq added this
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -9,10 +10,12 @@ public class UploadBIM : MonoBehaviour
     private ARRaycastManager raycastManager;
     private Pose placementPose;
     private bool placementPoseIsValid;
+    private bool isObjectPlaced; // Tasfiq added this, I think it is to confirm that the model is placed 
 
     public GameObject positionIndicator;
     public GameObject prefabToPlace;
     public Camera aRCamera;
+    public Canvas canvas; // tasfiq added this
 
     private void Awake()
     {
@@ -55,6 +58,10 @@ public class UploadBIM : MonoBehaviour
 
     private void PlaceObject()
     {
-        Instantiate(prefabToPlace, placementPose.position, placementPose.rotation);
+        var spawnedObject = Instantiate(prefabToPlace, placementPose.position, placementPose.rotation); // tasfiq added the first line
+        RotateManager.GetInstance().SetBIM(spawnedObject); //tasfiq added this line
+        isObjectPlaced = true;
+        positionIndicator.SetActive(false);
+        canvas.gameObject.SetActive(true); // this code makes it so those rotate buttons are invisible when there is no object 
     }
 }
