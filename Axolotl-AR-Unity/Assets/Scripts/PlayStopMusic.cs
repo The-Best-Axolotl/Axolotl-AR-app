@@ -6,10 +6,10 @@ public class PlayStopMusic : MonoBehaviour
 {
     public void PlayMusic()
     {
-        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().PlayMusic();
+        GameObject.Find("Music").GetComponent<MusicClass>().PlayMusic();
     }
     public void StopMusic()
     {
-        GameObject.FindGameObjectWithTag("Music").GetComponent<MusicClass>().StopMusic();
+        GameObject.Find("Music").GetComponent<MusicClass>().StopMusic();
     }
 }

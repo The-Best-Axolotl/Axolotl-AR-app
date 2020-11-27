@@ -24,11 +24,11 @@ public class MusicClass : MonoBehaviour
     public void PlayMusic()
     {
         if (_audioSource.isPlaying) return;
-        _audioSource.Play();
+        _audioSource.UnPause();
     }
 
     public void StopMusic()
     {
-        _audioSource.Stop();
+        _audioSource.Pause();
     }
 }
