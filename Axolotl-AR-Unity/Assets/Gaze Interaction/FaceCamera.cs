@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-[ExecuteInEditMode]
+
 public class FaceCamera : MonoBehaviour
 {
     Transform cam;
