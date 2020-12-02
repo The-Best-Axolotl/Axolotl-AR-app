@@ -736,7 +736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583913438}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -4.174}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 705507995}
@@ -798,7 +798,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 0.02
+  m_Intensity: 0.4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4768,6 +4768,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4025508368740790759, guid: 1a6d239529e867e4fb54965a2e006758,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025508368740790759, guid: 1a6d239529e867e4fb54965a2e006758,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 4025508369427967713, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: SectionInfo
@@ -4776,17 +4786,17 @@ PrefabInstance:
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.091
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.41
       objectReference: {fileID: 0}
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.082
+      value: 2.87
       objectReference: {fileID: 0}
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
@@ -4831,12 +4841,12 @@ PrefabInstance:
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4025508369427967714, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
@@ -4853,6 +4863,21 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4025508369427967727, guid: 1a6d239529e867e4fb54965a2e006758,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025508370506438560, guid: 1a6d239529e867e4fb54965a2e006758,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.097
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025508370506438560, guid: 1a6d239529e867e4fb54965a2e006758,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.177
+      objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438573, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_Mesh
@@ -4866,37 +4891,42 @@ PrefabInstance:
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_text
-      value: 
+      value: An explanation mark will be placed once you write a note.
       objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4025508370506438575, guid: 1a6d239529e867e4fb54965a2e006758,
+        type: 3}
+      propertyPath: m_fontStyle
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a6d239529e867e4fb54965a2e006758, type: 3}
