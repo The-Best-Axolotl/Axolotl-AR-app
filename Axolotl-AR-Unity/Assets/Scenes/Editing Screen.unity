@@ -205,7 +205,6 @@ GameObject:
   m_Component:
   - component: {fileID: 46194657}
   - component: {fileID: 46194656}
-  - component: {fileID: 46194660}
   - component: {fileID: 46194659}
   - component: {fileID: 46194658}
   m_Layer: 0
@@ -272,21 +271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &46194660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46194655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PlanePrefab: {fileID: 7747549639380147391, guid: 976ced45fdf0c9b49afdea8488d8f20b,
-    type: 3}
-  m_DetectionMode: -1
 --- !u!1 &321533294
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,17 +1443,17 @@ PrefabInstance:
     - target: {fileID: 9161894837855607704, guid: 62abe58250ce2964d9da00b16e2514e4,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9161894837855607704, guid: 62abe58250ce2964d9da00b16e2514e4,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9161894837855607704, guid: 62abe58250ce2964d9da00b16e2514e4,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9161894837855607705, guid: 62abe58250ce2964d9da00b16e2514e4,
         type: 3}
@@ -2954,7 +2938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2053447638
 RectTransform:
   m_ObjectHideFlags: 0
