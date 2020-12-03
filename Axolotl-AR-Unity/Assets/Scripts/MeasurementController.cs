@@ -39,6 +39,7 @@ public class MeasurementController : MonoBehaviour
 
     private Vector2 touchPosition = default;
 
+    [SerializeField]
     public GameObject distanceShownText;
 
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
@@ -106,13 +107,13 @@ public class MeasurementController : MonoBehaviour
 
         if (startPoint.activeSelf && endPoint.activeSelf)
         {
-            distanceText.transform.position = endPoint.transform.position;// + offsetMeasurement;
+            distanceText.transform.position = endPoint.transform.position + offsetMeasurement;
             distanceText.transform.rotation = endPoint.transform.rotation;
             measureLine.SetPosition(0, startPoint.transform.position);
             measureLine.SetPosition(1, endPoint.transform.position);
 
             distanceText.text = $"Distance: {(Vector3.Distance(startPoint.transform.position, endPoint.transform.position) * measurementFactor).ToString("F2")} in";
-            distanceShownText.GetComponent<TextMeshPro>().text = distanceText.text;
+            distanceShownText.GetComponent<Text>().text = distanceText.text;
         }
 
     }
